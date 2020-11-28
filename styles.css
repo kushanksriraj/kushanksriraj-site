@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
     --primary-color: #532799;
-    --dark-gray: #d68e08; 
+    --solid-gold: #d68e08;
     --off-white: #f6f8fa;
 }
 
@@ -19,17 +20,21 @@ p {
 
 hr {
     margin-top: 2rem;
-    max-width: 350px;
+    max-width: 300px;
+    height: 1px;
+    background-color: var(--off-white);
+    border: none;
 }
 
 
 /* spaces */
+
 .margin-md {
     margin-top: 2rem;
 }
 
 
-/** container **/
+/* container */
 
 .container {
     padding: 0rem 1rem;
@@ -45,9 +50,8 @@ hr {
 }
 
 
+/* links */
 
-
-/** links **/
 .link {
     box-sizing: border-box;
     text-decoration: none;
@@ -67,21 +71,25 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
-/** lists **/
+
+/* lists */
+
+ul {
+    padding-inline-start: 1rem;
+}
 
 .list-non-bullet {
     list-style: none;
 }
 
+
+
 .list-item-inline {
     display: inline;
-    /* padding: 0rem 0rem; */
 }
 
 
-
 /* navigation */
-
 
 .navigation {
     background-color: var(--primary-color);
@@ -107,11 +115,12 @@ hr {
     font-weight: bold;
 }
 
+
 /* header */
 
 .hero {
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 .hero .hero-img {
@@ -123,7 +132,7 @@ hr {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: var(--solid-gold);
 }
 
 .hero .hero-heading .heading-inverted {
@@ -168,4 +177,41 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+
+
+/***** Added for blogs *****/
+
+/* blogs */
+
+.blog-img {
+    padding: 1rem 1rem 1rem 1rem;
+    height: 20vh;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-img img {
+    height: 100%;
+}
+
+.blog {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 1rem 3rem;
+    display: block;
+    margin: auto;
+}
+
+.blog p {
+    padding-top: 0.5rem;
+    padding-left: 0.25rem;
+}
+
+.blog h5 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
