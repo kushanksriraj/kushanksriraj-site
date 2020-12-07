@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 
 :root {
-    --primary-color: #532799;
+    --primary-color: #03297cf6;
     --solid-gold: #d68e08;
     --off-white: #f6f8fa;
 }
