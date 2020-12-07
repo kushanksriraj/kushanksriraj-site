@@ -186,7 +186,7 @@ ul {
 /* blogs */
 
 .blog-img {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
     height: 20vh;
     margin: 1rem 0;
     display: flex;
@@ -199,9 +199,9 @@ ul {
 }
 
 .blog {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-size: 18px;
-    padding: 1rem 1.5rem;
+    padding: 2rem;
     display: block;
     margin: auto;
 }
