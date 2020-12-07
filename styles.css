@@ -159,14 +159,14 @@ ul {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 1rem 1rem 1rem ;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
 }
 
 .footer .footer-header {
-
+    margin-bottom: 1.5rem;
     font-weight: bold;
     font-size: large;
 }
