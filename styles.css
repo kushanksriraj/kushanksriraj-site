@@ -207,8 +207,9 @@ ul {
 }
 
 .blog p {
-    padding-top: 0.5rem;
-    padding-left: 0.25rem;
+    /* padding-top: 0.25rem; */
+    /* padding-left: 0.25rem; */
+    padding: 0 0.5rem;
 }
 
 .blog h5 {
