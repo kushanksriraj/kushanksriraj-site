@@ -185,17 +185,15 @@ ul {
 
 /* blogs */
 
-.blog-img {
+.blog-img { 
     padding: 1rem;
-    height: 20vh;
-    margin: 1rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 0.5rem;
 }
 
 .blog-img img {
-    height: 100%;
+    width: 100%;
 }
 
 .blog {
@@ -207,8 +205,6 @@ ul {
 }
 
 .blog p {
-    /* padding-top: 0.25rem; */
-    /* padding-left: 0.25rem; */
     padding: 0 0.25rem;
 }
 
